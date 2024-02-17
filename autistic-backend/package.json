@@ -1,0 +1,24 @@
+{
+  "name": "autistic-spectrum",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "main": "index.js",
+  "workspaces": [
+    "autistic-backend",
+    "autistic-chat"
+  ],
+  "scripts": {
+    "start": "concurrently \"yarn workspace autistic-backend start\"  \"yarn workspace autistic-chat start\"",
+    "dev": "nodemon autistic-backend\\src\\index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  },
+  "dependencies": {
+    "http": "^0.0.1-security"
+  }
+}

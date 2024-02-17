@@ -1,0 +1,43 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch Program",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "autistic-backend\\src\\index.js",
+      "console": "integratedTerminal",
+      "env": {
+        "SALT": "$2b$12$OSHUicJPx99s9FVWucVZKu",
+
+        "SERVER_PORT": "8000",
+
+        "DB_DEV": "mongodb+srv://mwasi4758:571e1115@cluster0.jb72nw9.mongodb.net/austim-care",
+
+        "DB_PROD": "",
+
+        "RABBIT_QUEUE": "testQueue",
+
+        "JWT_SECRET": "somethingsecret",
+
+        "FACEBOOK_APP_ID": "1223033491961889",
+        "FACEBOOK_APP_SECRET": "f7e3d75a3f457371ed703d1295fe5d34",
+        "Google_Client_ID": "1032301465589-40bki147b0llaukgutir625cguf3h3en.apps.googleusercontent.com",
+
+        "MAIL_SERVICE": "gmail",
+        "MAIL_HOST": "smtp.gmail.com",
+        "MAIL_ENCRYPTION": "tls",
+        "MAIL_PORT": "465",
+        "MAIL_FROM_ADDRESS": "",
+        "MAIL_FROM_NAME": "Autism-care",
+        "MAIL_USERNAME": "wasiarain819@gmail.com",
+        "MAIL_PASSWORD": "ntjnrlligyjgjjqr",
+        "FFMPEG_PATH": "C:\\PATH_Programs\\ffmpeg-2023-08-10-git-d9d5695390-full_build\\ffmpeg-2023-08-10-git-d9d5695390-full_build\\bin\\ffmpeg.exe"
+      }
+    }
+  ]
+}

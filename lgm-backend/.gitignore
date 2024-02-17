@@ -1,0 +1,4 @@
+# chat-repo/node_modules/
+# main-repo/node_modules/
+node_modules/
+**.env
